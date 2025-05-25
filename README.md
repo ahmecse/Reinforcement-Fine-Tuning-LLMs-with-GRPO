@@ -69,7 +69,15 @@ The specific RFT setup for the Wordle task involves building prompts combining s
 
 ## Code Structure
 
-The `NoteBooks` folder contains Jupyter notebooks (`SFT_GRPO_1.ipynb` through `SFT_GRPO_6.ipynb`) that likely implement the SFT and RFT/GRPO training loops, data handling, model interaction, and evaluation processes described above. Users interested in the specific implementation details should explore these notebooks.
+The `NoteBooks` folder contains a series of Jupyter notebooks (`SFT_GRPO_1.ipynb` through `SFT_GRPO_6.ipynb`) that walk through the implementation details of this project. These notebooks cover the following key topics in sequence:
+
+1.  **Can a large language model master Wordle?** (`SFT_GRPO_1.ipynb`): Explores the baseline capabilities of LLMs on the Wordle task.
+2.  **Reward functions** (`SFT_GRPO_2.ipynb`): Introduces and implements initial reward functions for evaluating Wordle guesses.
+3.  **Reward functions with LLM as a judge** (`SFT_GRPO_3.ipynb`): Demonstrates using another LLM to act as a judge for evaluating guess quality, providing more nuanced rewards.
+4.  **Reward hacking** (`SFT_GRPO_4.ipynb`): Discusses the potential issue of reward hacking, where the model exploits the reward function without genuinely improving, and explores mitigation techniques.
+5.  **Calculating loss in GRPO** (`SFT_GRPO_5.ipynb`): Details the calculation of the GRPO loss function, incorporating the components discussed earlier (probability ratio, advantage, clipping, KL divergence).
+6.  **Putting it all together: Training Wordle** (`SFT_GRPO_6.ipynb`): Integrates the preceding concepts to perform the actual SFT and RFT (using GRPO) training process for the Wordle-playing LLM.
+
 
 ## Results and Evaluation
 
