@@ -1,4 +1,4 @@
-# Reinforcement Fine-Tuning of Large Language Models with Group Relative Policy Optimization (GRPO)
+# ![RFTwithGRPO](images/Poster%20RFT%20with%20GRPO.png)
 
 This project explores the application of Reinforcement Fine-Tuning (RFT) using the Group Relative Policy Optimization (GRPO) algorithm to enhance the capabilities of Large Language Models (LLMs), particularly for tasks requiring complex reasoning or strategic decision-making. The methodology is demonstrated through a practical example involving fine-tuning the Qwen 2.5 7B Instruct model to play a Wordle-style guessing game.
 
