@@ -86,3 +86,5 @@ The results indicate that the base Qwen 2.5 7B Instruct model solved 0 games. Fi
 ## Conclusion
 
 This project showcases the potential of combining SFT with RFT using the GRPO algorithm for enhancing LLM performance on complex, verifiable tasks like the Wordle game. By first grounding the model with SFT on reasoning examples and then refining its strategy through GRPO-based reinforcement learning, significant improvements in task success rate can be achieved compared to using the base model or GRPO alone. The GRPO algorithm itself presents an efficient alternative to traditional RLHF methods by eliminating the need for a separate critic model.
+
+## References
