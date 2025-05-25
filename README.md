@@ -88,16 +88,16 @@ The results indicate that the base Qwen 2.5 7B Instruct model solved 0 games. Fi
 This project showcases the potential of combining SFT with RFT using the GRPO algorithm for enhancing LLM performance on complex, verifiable tasks like the Wordle game. By first grounding the model with SFT on reasoning examples and then refining its strategy through GRPO-based reinforcement learning, significant improvements in task success rate can be achieved compared to using the base model or GRPO alone. The GRPO algorithm itself presents an efficient alternative to traditional RLHF methods by eliminating the need for a separate critic model.
 
 ## References
-
-1.  **Serrano.Academy. (2025, May). GRPO - Group Relative Policy Optimization - How DeepSeek trains reasoning models.** [Video]. YouTube.
+1.  **Shao, Z., et al. (2024). DeepSeekMath: Pushing the Limits of Mathematical Reasoning in Open Language Models**. *arXiv preprint arXiv:2402.03300*.)
+2.  **Serrano.Academy. (2025, May). GRPO - Group Relative Policy Optimization - How DeepSeek trains reasoning models.** YouTube.
     <https://www.youtube.com/watch?v=XeUB4h1OO1g&t=994s>
-2.  **Zhang, T., et al. (2024). Reinforcement Learning Enhanced LLMs: A Survey.** *arXiv preprint arXiv:2412.10400.*
+3.  **Zhang, T., et al. (2024). Reinforcement Learning Enhanced LLMs: A Survey.** *arXiv preprint arXiv:2412.10400.*
     <https://arxiv.org/html/2412.10400v1>
-3.  **Zhao, Z., et al. (2025). Systems Opportunities for LLM Fine-Tuning using Reinforcement Learning.** *Proceedings of the ACM on Measurement and Analysis of Computing Systems.*
+4.  **Zhao, Z., et al. (2025). Systems Opportunities for LLM Fine-Tuning using Reinforcement Learning.** *Proceedings of the ACM on Measurement and Analysis of Computing Systems.*
     <https://dl.acm.org/doi/10.1145/3721146.3721944>
-4.  **Raschka, S. (2025, April 19). The State of Reinforcement Learning for LLM Reasoning.** [Blog Post].
+5.  **Raschka, S. (2025, April 19). The State of Reinforcement Learning for LLM Reasoning.**
     <https://sebastianraschka.com/blog/2025/the-state-of-reinforcement-learning-for-llm-reasoning.html>
-5.  **Predibase Documentation: Models.**
+6.  **Predibase Documentation: Models.**
     <https://docs.predibase.com/user-guide/inference/models>
-6.  **DeepLearning.AI. Reinforcement Fine-Tuning LLMs with GRPO.** [Short Course].
+7.  **DeepLearning.AI. Reinforcement Fine-Tuning LLMs with GRPO.**
     <https://www.deeplearning.ai/short-courses/reinforcement-fine-tuning-llms-grpo/>
