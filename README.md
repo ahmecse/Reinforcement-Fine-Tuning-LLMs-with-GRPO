@@ -16,7 +16,7 @@ For tasks where optimal strategies are complex, involve multiple steps, or where
 
 However, RLHF can be complex and resource-intensive, often requiring the training and maintenance of multiple models (the policy model, the reward model, and sometimes a critic model used within PPO). Direct Policy Optimization (DPO) offers a simpler alternative by directly optimizing the LLM policy using human preference data (chosen vs. rejected responses) without needing an explicit reward model. It generates responses, gathers human feedback on preferred responses, creates a preference dataset, and updates the LLM weights directly using this dataset and the DPO algorithm.
 
-![Direct Policy Optimization (DPO) Process](images/DPO.png)
+![Direct Policy Optimization (DPO) Process](images/DPO1.png)
 *Figure 3: The Direct Policy Optimization (DPO) approach, which bypasses the need for an explicit reward model by using preference data directly.*
 
 ## Reinforcement Fine-Tuning (RFT) and Group Relative Policy Optimization (GRPO)
